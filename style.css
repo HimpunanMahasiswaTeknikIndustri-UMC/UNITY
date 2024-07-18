@@ -1,0 +1,162 @@
+
+
+
+
+header{
+    border: black;
+    border-style: double;
+    background-color:gray;
+}
+
+body{
+ 
+   background-size: cover;
+   
+}
+
+
+h3{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h2,h3,h4,h5,h6,strong{
+        color: black;
+    }
+
+ 
+    a{
+        text-decoration: none;
+    }
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1200px){
+    .main-container{
+        width:90%;
+    }
+}
+
+.nav{
+    display: flex;
+    justify-content:left;
+    padding: 2rem 0;
+}
+ul{
+    list-style:none;
+    display:flex;
+    gap:2rem;
+  float: right;
+  float: top;
+  border: black;
+  border-style: double;
+    background-color:darkgrey
+   
+
+}
+
+
+
+
+.btn{
+    padding: 1rem 1.5rem;
+    background: none;
+    border: 1.5px   black;
+    cursor: pointer;
+    transition: .2s ease-in-out; 
+    color: orange;
+    text-shadow: black 2px 1px;
+}
+.btn:hover{
+    box-shadow:rgba(0, 0, 0, 0.04 0px 3px 5px) ;
+}
+
+
+ .logo a{
+    color: orange;
+    text-shadow: 2px 3px black;
+    text-align: right;
+ }
+nav ul li {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li a {
+    color: orange;
+    text-shadow: 2px 1px  black;
+}
+
+.burger div{
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 7px;
+    transition: all 0.3;
+    text-align: left;
+}
+
+.burger{
+    z-index: 99;
+    position: fixed;
+    top: 100px;
+    left:30px;
+}
+.pre-title{
+text-transform: uppercase;
+letter-spacing: 5rem;
+color: orange;
+position: relative;
+padding-left: 40px;
+width: fit-content;
+font-weight:400;
+font-size: 0,9rem;
+
+}
+.pre-title ::before{
+    content: "";
+    width: 30px ;
+    height: 1px;
+    background: olive;
+    position:  absolute;
+    display: block;
+    left: 0;
+}
+
+
+
+p{
+    font-size: medium;
+}
+
+
+img{
+   
+  
+
+    
+}
+a.href{
+    text-align: center;
+}
+
+a.daftar{
+    font-size:larger;
+    color: aqua;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    
+}

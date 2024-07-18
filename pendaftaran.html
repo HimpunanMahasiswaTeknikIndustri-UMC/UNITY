@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Form Pendaftaran HMTI</title>
+ </head>
+ <body>
+    <h1> Jangan lupa isi form dibawah ini ya </h1>
+  <form action="simpan.php" method="post">
+   <table> 
+    <tbody>
+     <tr onsubmit="event"> 
+      <td>Nama Lengkap</td> 
+      <td>:</td> 
+      <td><input type="text" name="nama_lengkap" required></td> 
+     </tr> 
+     <tr> 
+      <td>NIM</td> 
+      <td>:</td> 
+      <td><input type="text" name="nim" required></td> 
+     </tr> 
+     <tr> 
+      <td>Kelas</td> 
+      <td>:</td> 
+      <td><input type="text" name="kelas" required></td> 
+     </tr> 
+     <tr> 
+      <td>Jenis Kelamin</td> 
+      <td>:</td> 
+      <td>
+       <input type="radio" name="jenis_kelamin" value="pria" required>Pria 
+       <input type="radio" name="jenis_kelamin" value="perempuan" required>Perempuan
+      </td> 
+     </tr> 
+     <tr> 
+      <td>Apa Motivasi Masuk HMTI?</td> 
+      <td>:</td> 
+      <td><textarea name="motivasi" cols="22" rows="3" required></textarea></td> 
+     </tr> 
+     <tr> 
+      <td>&nbsp;</td> 
+      <td>&nbsp;</td> 
+      <td>
+
+       <a href="index.html">  <button type="button" > Simpan </button></a>
+       <input type="reset" name="reset" value="Batal">
+       
+      </td> 
+     </tr> 
+    </tbody>
+   </table>
+  </form>
+
+
+ </body>
+</html>
+<style>
+    *{
+        float: center;
+        
+    }
+    form{
+        float: center;
+
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+    }
+   
+    body{
+       background-color: antiquewhite;
+        background-size: cover;
+      
+        
+    }
+
+    table{
+        float: center;
+    }
+
+    tbody{
+        float: center;
+    }
+    .simpan{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+     text-transform: capitalize;
+    }
+
+
+    .tombol {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 6px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+        }
+
+
+ 
+
+</style>
